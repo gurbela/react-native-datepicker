@@ -292,7 +292,7 @@ class DatePicker extends Component {
           minDate: minDate && this.getDate(minDate),
           maxDate: maxDate && this.getDate(maxDate),
           mode: androidMode
-        }).then(this.onDatePicked);
+        }).then(this.onDateMonthPicked);
       } else if (mode === 'time') {
         // 选时间
 
