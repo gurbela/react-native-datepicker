@@ -484,7 +484,7 @@ DatePicker.defaultProps = {
 };
 
 DatePicker.propTypes = {
-  mode: PropTypes.oneOf(['date', 'datetime', 'time']),
+  mode: PropTypes.oneOf(['date', 'dateMonth', 'datetime', 'time']),
   androidMode: PropTypes.oneOf(['clock', 'calendar', 'spinner', 'default']),
   date: PropTypes.oneOfType([PropTypes.string, PropTypes.instanceOf(Date), PropTypes.object]),
   format: PropTypes.string,
